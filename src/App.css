@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: none;
+}
+.navbar {
+  background-color: black;
+}
+.nav li {
+  list-style-type: none;
+  padding-right: 20px;
+  background-color: black;
+}
+.home {
+  width: 98vw;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking img {
+  height: 30vh;
+  width: 40vw;
+}
+.button {
+  width: 500px;
+}
+.book {
+  background-color: rgb(9, 9, 9);
+}
+.booking {
+  background-color: black;
+  border-radius: 30px;
+}
+.footerlist li {
+  list-style-type: none;
+  padding: 5px;
+  color: black;
+}
+.icons a img {
+  height: 30px;
+  width: 31px;
+  margin-right: 10px;
+}
+.imagebox {
+  height: 300px;
+  width: 400px;
+}
+.favourites {
+  height: 40vh;
+  width: 100%;
+}
+.motor {
+  background-color: rgb(9, 9, 9);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.label {
+  top: -100px;
+  display: none;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all ease 200ms;
+}
+.imagebox img {
+  height: 300px;
+  width: 400px;
+}
+.imagebox:hover .label {
+  top: -50px;
+  display: block;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.backgroundform {
+  background-color: rgb(240, 240, 240);
+  color: rgb(3, 120, 87);
+}
+.aboutimage img {
+  height: 400px;
+  width: 50vw;
+}
+/* .aboutcontainer {
+  width: 100vw;
+} */
+.aboutimagecontent {
+  width: 50vw;
+  background-color: rgb(217, 218, 220);
+  padding-top: 150px;
+}
+.image1 {
+  width: 100%;
+}
+.aboutimage {
+  width: 50vw;
+}
+.content2 {
+  padding-top: 200px;
+}
+.content3 {
+  padding-top: 230px;
+}
+.content4 {
+  padding-top: 260px;
+}
+.content5 {
+  padding-top: 240px;
+}
+.content6 {
+  padding-top: 240px;
+}
+.content7 {
+  padding-top: 240px;
+}
+.content8 {
+  padding-top: 280px;
+}
+.content9 {
+  padding-top: 270px;
+}
+.content10 {
+  padding-top: 270px;
+}
